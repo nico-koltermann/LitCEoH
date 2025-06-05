@@ -4,14 +4,6 @@ import os
 # LLM Models for configuration of local or openrouter requests
 
 OPENROUTER_MODELS = [
-    'meta-llama/llama-3.2-3b-instruct:free'
-    'deepseek/deepseek-r1',
-    'anthropic/claude-3.5-sonnet',
-    'deepseek/deepseek-chat',
-    'minimax/minimax-01',
-    'google/gemma-2-27b-it',
-    'google/gemma-3-27b-it:free',
-    'openai/gpt-4.1-nano',
 ]
 
 DEEPSEEK_MODELS = [
@@ -24,18 +16,12 @@ OPENAI_MODELS = [
     'gpt-4o',
     'gpt-4o-2024-08-06',
     'gpt-4o-2024-11-20',
-    'gpt-4o-mini-2024-07-18',
-    'gpt-4.1-nano-2025-04-14',
 ]
 
 LOCAL_MODELS = [
     'llama3.1:70b',
-    'gemma2:27b',
     'gemma3:27b',
-    'nemotron:latest',
     'qwen2.5-coder:32b',
-    'codestral:22b',
-    'deepseek-r1:32b'
 ]
 
 def get_model_info(model_name):

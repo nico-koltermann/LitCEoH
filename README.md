@@ -141,7 +141,7 @@ The **Literature-Based Contextual Evolution of Heuristics (LitCEoH)** framework 
   <img src="docs/figures/heuristic_idea_generation_procedure.png" width="100%" />
 </p>
 
-#### **Idea Generation Prompt Template**
+#### **Idea Extraction Prompt Template **
 This prompt requests the Extractor LLM to generate heuristic ideas grounded in the content of a provided academic paper. The Extractor LLM is encouraged to propose ideas that could be implemented programmatically and are relevant to solving the optimization problem.
 
 <p float="center">
@@ -149,7 +149,7 @@ This prompt requests the Extractor LLM to generate heuristic ideas grounded in t
 </p>
 
 
-#### **Example Output Idea Generation Prompt**
+#### **Example Output Idea Extraction Prompt**
 The example below shows two automatically generated heuristic ideas. Each includes a name, logic description, problem challenge addressed, grounding in the document content, and a Python implementation. These ideas become the building blocks for later heuristic evolution.
 
 ```json
